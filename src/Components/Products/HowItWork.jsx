@@ -17,7 +17,7 @@ const HowItWorksSection = () => {
             number: '01',
             image: '/Images/process1.jpg',
             title: 'Raw Material Sourcing',
-            description: "High-quality iron ore, coal, and scrap are sourced from trusted suppliers and stored carefully to maintain consistency.",
+            description: "High-quality iron and coal are sourced from trusted suppliers and stored carefully to maintain consistency.",
         },
         {
             number: '02',
