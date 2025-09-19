@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'
 import Header from '../../Common Components/Header';
 import Whatsapp from '../../Common Components/Whatsapp';
 import SteelFooter from '../../Common Components/Footer';
+import { ArrowLeft } from 'lucide-react';
 
 export default function DetailProducts() {
     const { state } = useLocation();
@@ -47,7 +48,17 @@ export default function DetailProducts() {
                     </div>
                 </div>
 
-                {/* Main Content with Staggered Animations */}
+
+
+                <a href="/products">
+                    <button className="group relative ms-[5%] cursor-pointer flex-1 bg-gradient-to-r from-[#2b325e] via-[#3d4574] to-[#2b325e] hover:from-[#1e2347] hover:to-[#1e2347] text-white font-bold py-3 sm:py-4 px-4 sm:px-6 rounded-xl sm:rounded-2xl transition-all duration-500 transform hover:scale-105 hover:shadow-2xl overflow-hidden">
+                        {/* Multiple Glow Effects */}
+                        <div className="absolute inset-0 bg-gradient-to-r from-[#2b325e]/50 to-[#4a5568]/50 rounded-xl sm:rounded-2xl blur opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
+                        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+                        <span className='flex gap-2'><ArrowLeft />  Back To Products</span>
+                    </button>
+                </a>
+
                 <div className="mainDiv grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 w-[90%] mx-auto py-10 sm:py-16 md:py-20 relative z-10">
                     {/* Enhanced Image Section */}
                     <div className="relative group" data-aos="fade-right" data-aos-duration="1500">

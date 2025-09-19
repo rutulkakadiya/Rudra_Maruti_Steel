@@ -26,7 +26,7 @@ export default function OurProducts() {
             id: 3,
             image: "/Images/crca_coil.jpg",
             productName: "CRCA Coils and Sheets",
-            description: "Cold Rolled Close Annealed (CRCA) Coils and Sheets are manufactured by cold rolling hot rolled steel and then annealing it to achieve a smooth, uniform surface finish. They are known for their excellent strength, dimensional accuracy, and superior surface quality. CRCA coils and sheets are widely used in automotive, furniture, home appliances, precision engineering, and general fabrication where high-quality finish and formability are essential.",
+            description: "Cold Rolled Close Annealed (CRCA) Coils and Sheets are made by processing Hot Rolled steel through cold rolling and annealing. This gives the steel a smooth surface, accurate dimensions, and good strength. CRCA is widely used in automobiles, appliances, furniture, and general engineering applications.",
             thickness: "0.80mm to 3.00mm",
             width: "1250, 1500, 1540",
             length: "2500, Packet, Customize length"

@@ -50,7 +50,7 @@ export default function Products() {
                 </div>
 
                 <p className="text-gray-600 text-base lg:text-lg leading-relaxed max-w-md" data-aos="fade-up" data-aos-duration="1500">
-                  Maruti Steel offers a wide range of high-quality steel solutions including HR Coils, CR Sheets, GP Sheets, Pipes, and Structural Steel.
+                  Maruti Steel offers a wide range of high-quality steel solutions including H.R. Coils and Sheets, .
                 </p>
               </div>
             </div>
